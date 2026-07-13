@@ -3,8 +3,10 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
     "@expo/ui": "~57.0.4",
     "expo": "~57.0.4",
+    "expo-asset": "~57.0.3",
     "expo-constants": "~57.0.3",
     "expo-dev-client": "~57.0.5",
     "expo-device": "~57.0.0",
@@ -34,6 +36,8 @@
   "devDependencies": {
     "@types/react": "~19.2.2",
     "babel-preset-expo": "^57.0.2",
+    "eslint": "^9.39.4",
+    "eslint-config-expo": "~57.0.0",
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.19",
     "typescript": "~6.0.3"
@@ -42,6 +46,7 @@
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo run:android",
+    "androidc": "rm -rf android && expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint"
