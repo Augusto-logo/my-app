@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Montenegrin": ["MontenegrinGothicOne-Regular"],
-        "HiburMono": ["HiburMono-Regular"],
-      }
+        Montenegrin: ["MontenegrinGothicOne-Regular"],
+        HiburMono: ["HiburMono-Regular"],
+      },
     },
   },
   plugins: [],
